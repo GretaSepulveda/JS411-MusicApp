@@ -3,6 +3,7 @@ import { Switch, Card, CardContent, CardActions, Typography, Slider, TextField, 
 
 
 
+
 class Dashboard extends Component {
   state = {
     checkedA: true,
@@ -73,9 +74,14 @@ class Dashboard extends Component {
           <TextField className="dropDown"
             select
             label="Normal">
-          </TextField>
+            select
+            level="High">
+      
+      ld></TextField>
+         
           </CardActions>
         </Card>
+        
       </div>
     )
   }

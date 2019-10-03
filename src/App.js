@@ -22,7 +22,7 @@ class App extends Component {
         <AppBar position="sticky">
           <Toolbar>
             <Typography variant="h6">
-              Music App
+              La Musique App
             </Typography>
           </Toolbar>
         </AppBar>
